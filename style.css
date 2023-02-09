@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kumbh+Sans:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Macondo+Swash+Caps&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Righteous&family=Roboto:wght@100;300;400;500;700;900&family=Satisfy&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 4rem;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    scroll-behavior: smooth;
+}
+:root{
+    --green : #83EC1B ;
+    --violet : #8F77F4 !important ;
+    --black : #404040;
+    --lg-white : #F2F2F2;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+.close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 5rem;
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+}
+.close-bar{
+    width: 31px;
+    height: 3px;
+    background-color: #1e1e1e;
+    position: absolute;
+    background-color: #fff;
+}
+.close-bar:first-child{
+    transform: rotate(45deg);
+}
+.close-bar:last-child{
+    transform: rotate(-45deg);
+}
+.hamburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 5rem;
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+}
+.hambar{
+    width: 31px;
+    height: 3px;
+    background-color: #1e1e1e;
+    position: absolute;
+}
+.hambar:nth-child(1){
+    top: 1.8rem;
+}
+.hambar:nth-child(3){
+    bottom: 1.8rem;
+}
+
+nav.active ul{
+    left: 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: fixed;
+    padding: 5rem 0;
+    top: 8rem;
+    left: -100%;
+    background-color: #010101ae;
+    height: 100vh;
+    width: 500px;
+    list-style: none;
+    transition: all .4s ease;
+}
+nav ul li{
+    margin: 1.5rem 0;
+}
+nav ul li a {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #fff;
+}
