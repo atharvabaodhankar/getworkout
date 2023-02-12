@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <script src="https://kit.fontawesome.com/79f75f2740.js" crossorigin="anonymous"></script>
     <!-- https://website3964133.nicepage.io/About.html?version=3cb27c3d-5330-4eeb-9bf2-dbf9e86bc588 -->
 </head>
+
 <body>
     <nav>
         <div class="hamburger">
@@ -32,7 +34,8 @@
     <section id="hero">
         <div class="hero-main">
             <h1>Turn your ideas to live web experiences</h1>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident</p>
             <div class="hero-main-btns">
                 <a href="#" class="btn-green">learn more</a>
                 <a href="#" class="btn-purple">learn more</a>
@@ -70,17 +73,101 @@
             </div>
         </div>
     </section>
+    <section id="solution">
+        <div class="solution-main">
+            <h1>The Best Digital Solution</h1>
+            <p>Etiam erat velit scelerisque in dictum non consectetur. Nisl purus in mollis nunc sed id semper. Cras
+                fermentum odio eu feugiat pretium nibh ipsum.</p>
+            <a href="#" class="btn-green">read more</a>
+
+        </div>
+        <div class="solution-flex">
+            <div class="solution-box ">
+                <div class="solution-box-main">
+                    <h1>Create a Webinar in Minutes</h1>
+                    <i class="fa-regular fa-plus"></i>
+                </div>
+                <div class="solution-box-hide">
+                    <p>Interdum velit euismod in pellentesque massa placerat duis. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Nibh nisl condimentum.</p>
+                    <ul><li>-Mattis nunc sed blandit libero volutpat.</li>
+                        <li>-Tortor at risus viverra adipiscing at in tellus.</li>
+                        <li>-Purus ut faucibus pulvinar elementum.</li>
+                        <li>-Blandit turpis cursus in hac habitasse.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="solution-box solution-box-2">
+                <div class="solution-box-main solution-box-main-2">
+                    <h1>Create a Webinar in Minutes</h1>
+                    <i class="fa-regular fa-plus"></i>
+                </div>
+                <div class="solution-box-hide solution-box-hide-2">
+                    <p>Interdum velit euismod in pellentesque massa placerat duis. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Nibh nisl condimentum.</p>
+                    <ul><li>-Mattis nunc sed blandit libero volutpat.</li>
+                        <li>-Tortor at risus viverra adipiscing at in tellus.</li>
+                        <li>-Purus ut faucibus pulvinar elementum.</li>
+                        <li>-Blandit turpis cursus in hac habitasse.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="solution-box solution-box-3">
+                <div class="solution-box-main solution-box-main-3">
+                    <h1>Create a Webinar in Minutes</h1>
+                    <i class="fa-regular fa-plus"></i>
+                </div>
+                <div class="solution-box-hide solution-box-hide-3">
+                    <p>Interdum velit euismod in pellentesque massa placerat duis. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Nibh nisl condimentum.</p>
+                    <ul><li>-Mattis nunc sed blandit libero volutpat.</li>
+                        <li>-Tortor at risus viverra adipiscing at in tellus.</li>
+                        <li>-Purus ut faucibus pulvinar elementum.</li>
+                        <li>-Blandit turpis cursus in hac habitasse.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script>
         let navBar = document.querySelector("nav");
         let hamburger = document.querySelector(".hamburger");
         let close = document.querySelector(".close");
 
-        hamburger.addEventListener("click" , ()=>{
+
+        var solution_box_main = document.querySelector(".solution-box-main");
+        var solution_box = document.querySelector(".solution-box");
+
+        var solution_box_main_2 = document.querySelector(".solution-box-main-2");
+        var solution_box_2 = document.querySelector(".solution-box-2");
+
+        var solution_box_main_3 = document.querySelector(".solution-box-main-3");
+        var solution_box_3 = document.querySelector(".solution-box-3");
+
+        solution_box_main.addEventListener("click" , ()=>{
+            solution_box.classList.toggle("active");
+
+            solution_box_2.classList.remove("active");
+            solution_box_3.classList.remove("active");
+        })
+        solution_box_main_2.addEventListener("click" , ()=>{
+            solution_box_2.classList.toggle("active");
+
+            solution_box.classList.remove("active");
+            solution_box_3.classList.remove("active");
+        })
+        solution_box_main_3.addEventListener("click" , ()=>{
+            solution_box_3.classList.toggle("active");
+
+            solution_box.classList.remove("active");
+            solution_box_2.classList.remove("active");
+        })
+
+        hamburger.addEventListener("click", () => {
             navBar.classList.toggle("active");
         })
-        close.addEventListener("click" , ()=>{
+        close.addEventListener("click", () => {
             navBar.classList.remove("active");
         })
     </script>
 </body>
+
 </html>

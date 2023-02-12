@@ -221,3 +221,105 @@ nav ul li a {
     background-color: var(--purple);
     color: #fff;
 }
+/* Solution */
+#solution{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 6rem 0;
+    min-height: 500px;
+}
+.solution-main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    width: 480px;
+    padding: 0 2rem;
+}
+.solution-main h1{
+    font-size: 5rem;
+}
+.solution-main p{
+    margin: 2.5rem 0;
+    line-height: 2.5rem;
+}
+.solution-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+}
+.solution-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.solution-box:nth-child(2){
+  margin-top: 2rem;
+    
+}
+.solution-box:nth-child(3){
+ margin-top: 2rem;
+}
+.solution-box-main{
+    background-color: #f2f2f2;
+    border-radius:  2rem;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    justify-content: space-between;
+    padding: 0 2rem;
+    cursor: pointer;
+    width: 100%;
+}
+.solution-box-main:hover{
+    background-color: #d7d7d7;
+}
+.solution-box-main h1{
+    font-size: 2rem;
+}
+.solution-box-main i{
+    font-size: 2.3rem;
+    background-color: var(--purple);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+.solution-box-hide{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem 1.5rem;
+    display: none;
+}
+.solution-box.active .solution-box-hide{
+    display: flex;
+}
+.solution-box.active .solution-box-main{
+    background-color: var(--green);
+}
+.solution-box-hide p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+.solution-box-hide ul{
+    list-style: none;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.solution-box-hide ul li{
+    margin: 1rem 0;
+    font-size: 1.6rem;
+}
