@@ -7,7 +7,12 @@
     }
 }
 @media screen and (max-width:1300px) {
-    
+    .marketing-box {
+        width: 351px;
+    }
+    .marketing {
+        width: 1060px;
+    }
 }
 @media screen and (max-width:1200px) {
     .solution-flex {
@@ -44,6 +49,9 @@
             margin-top: 7rem;
             width: 700px;
         }
+        .marketing {
+            width: 720px;
+        }
 }
 @media screen and (max-width:900px) {
     
@@ -54,7 +62,7 @@
     }
     .solution-flex{
         margin-top: 7rem;
-        width: 90%;
+        width: 70%;
     }
 }
 @media screen and (max-width:700px) {
@@ -70,6 +78,12 @@
     }
     nav ul {
         width: 100%;
+    }
+    .marketing {
+        width: auto;
+    }
+    .marketing-box{
+        width: 90%;
     }
 }
 @media screen and (max-width:600px) {

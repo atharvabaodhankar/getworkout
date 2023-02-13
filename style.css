@@ -323,3 +323,49 @@ nav ul li a {
     margin: 1rem 0;
     font-size: 1.6rem;
 }
+/* Marketing */
+#marketing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: var(--purple);
+}
+.marketing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1300px;
+}
+.marketing-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 2rem;
+    width: 400px;
+    margin: 5rem 0;
+}
+.marketing-box-inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+.marketing-box p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #fff;
+}
+.marketing-box-inner h1{
+    font-size: 5rem;
+    color: var(--green);
+}
+.marketing-box-inner h2{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 3rem;
+}
