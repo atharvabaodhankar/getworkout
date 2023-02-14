@@ -369,3 +369,73 @@ nav ul li a {
     color: #fff;
     margin-left: 3rem;
 }
+/* About */
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+}
+.about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 2rem;
+    margin-right: 4rem;
+    width: 700px;
+}
+.about h1{
+    font-size: 5rem;
+}
+.about p{
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    margin: 2.5rem 0;
+}
+.about ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    list-style: none;
+}
+.about ul li{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: .5rem 0;
+}
+.about ul li i{
+    margin-right: 1rem;
+    color: var(--green);
+    font-size: 2rem;
+}
+.about-phone{
+    display: flex;
+    margin-top: 3rem;
+}
+.about-phone a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-phone i {
+    font-size: 2rem;
+    color: var(--purple);
+    margin-right: 1rem;
+}
+.about-phone h3{
+    color: #1e1e1e;
+    font-size: 2rem;
+}
+.about-phone h3:hover{
+    color: var(--purple);
+}
+.about-img{
+    width: 400px;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+}

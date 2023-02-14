@@ -13,6 +13,9 @@
     .marketing {
         width: 1060px;
     }
+    .about {
+        width: 500px;
+    }
 }
 @media screen and (max-width:1200px) {
     .solution-flex {
@@ -52,6 +55,17 @@
         .marketing {
             width: 720px;
         }
+        #about{
+            flex-direction: column;
+        }
+        .about {
+            width: 80%;
+            margin-right: 0;
+        }
+        .about-img {
+            width: 360px;
+            margin-top: 3rem;
+        }
 }
 @media screen and (max-width:900px) {
     
@@ -87,7 +101,9 @@
     }
 }
 @media screen and (max-width:600px) {
-    
+    .about h1{
+        font-size: 4rem;
+    }
 }
 @media screen and (max-width:500px) {
     .hero-main-btns{
@@ -101,6 +117,13 @@
     }
     .solution-main h1{
         font-size: 3rem;
+    }
+    .about{
+        width: 90%;
+    }
+    .about-img {
+        width: 75%;
+        margin-top: 3rem;
     }
 }
 @media screen and (max-width:400px) {
@@ -118,6 +141,9 @@
         font-size: 2rem;
         width: 30px;
         height: 30px;
+    }
+    .about h1 {
+        font-size: 3rem;
     }
 }
 @media screen and (max-width:300px) {
