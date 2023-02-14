@@ -145,6 +145,9 @@
     .about h1 {
         font-size: 3rem;
     }
+    .solution-flex {
+        width: 90%;
+    }
 }
 @media screen and (max-width:300px) {
     
