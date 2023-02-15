@@ -16,6 +16,12 @@
     .about {
         width: 500px;
     }
+    .services-h1 {
+        width: 995px;
+    }
+    .services {
+        width: 100%;
+    }
 }
 @media screen and (max-width:1200px) {
     .solution-flex {
@@ -66,6 +72,16 @@
             width: 360px;
             margin-top: 3rem;
         }
+        .services-h1 {
+            width: 90%;
+        }
+        .services {
+            flex-wrap: wrap;
+        }
+        .services-box {
+            width: 50%;
+            margin: 2rem 0;
+        }
 }
 @media screen and (max-width:900px) {
     
@@ -77,6 +93,9 @@
     .solution-flex{
         margin-top: 7rem;
         width: 70%;
+    }
+    .services-h1 h1 {
+        font-size: 4rem;
     }
 }
 @media screen and (max-width:700px) {
@@ -124,6 +143,20 @@
     .about-img {
         width: 75%;
         margin-top: 3rem;
+    }
+    .services-h1 h1 {
+        font-size: 3.3rem;
+    }
+    .services-box-circle {
+        width: 150px;
+        height: 150px;
+    }
+    .services-box-circle h1 {
+        font-size: 4rem;
+        color: var(--purple);
+    }
+    .services-box{
+        width: 100%;
     }
 }
 @media screen and (max-width:400px) {
