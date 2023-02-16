@@ -490,3 +490,42 @@ nav ul li a {
     font-size: 2.5rem;
     margin-top: 3rem;
 }
+/* Quotes */
+#quotes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--green);
+    padding: 6rem 0;
+}
+.quotes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 4rem;
+    width: 450px;
+    padding: 7rem 2.5rem;
+    text-align: center;
+}
+.quotes i{
+    font-size: 7rem;
+    color: var(--purple);
+}
+.quotes p{
+    font-size: 1.7rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+.quotes-btn{
+    margin-top: 4rem;
+    padding: 2rem 6rem;
+}
+
+.quotes-btn:hover{
+    background-color: #fff;
+    color: #404040;
+}

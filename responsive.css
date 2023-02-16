@@ -158,6 +158,9 @@
     .services-box{
         width: 100%;
     }
+    .quotes {
+        width: 90%;
+    }
 }
 @media screen and (max-width:400px) {
     .hero-main h1 {
