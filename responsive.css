@@ -23,6 +23,11 @@
         width: 100%;
     }
 }
+@media screen and (max-width:1250px) {
+    .company {
+        width: 900px;
+    }
+}
 @media screen and (max-width:1200px) {
     .solution-flex {
         width: 450px;
@@ -82,6 +87,12 @@
             width: 50%;
             margin: 2rem 0;
         }
+        .company-box {
+            width: 50%;
+        }
+        .company {
+            width: 90%;
+        }
 }
 @media screen and (max-width:900px) {
     
@@ -95,6 +106,12 @@
         width: 70%;
     }
     .services-h1 h1 {
+        font-size: 4rem;
+    }
+    .company-header {
+        width: 100%;
+    }
+    .company-header h1 {
         font-size: 4rem;
     }
 }
@@ -160,6 +177,15 @@
     }
     .quotes {
         width: 90%;
+    }
+    .company-img {
+        width: 100px;
+    }
+    .company {
+        width: 100%;
+    }
+    .company-header h1 {
+        font-size: 3rem;
     }
 }
 @media screen and (max-width:400px) {

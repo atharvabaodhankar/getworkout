@@ -529,3 +529,48 @@ nav ul li a {
     background-color: #fff;
     color: #404040;
 }
+/* Company */
+#company{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem 0;
+    background-color: var(--purple);
+}
+.company-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 0 2rem;
+    width: 800px;
+}
+.company-header h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.company{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.company-box{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+.company-img{
+    width: 150px;
+    margin-top: 2rem;
+}
+.company-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
