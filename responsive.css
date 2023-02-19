@@ -44,6 +44,17 @@
         flex-direction: column;
         width: 345px;
     }
+    #footer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footer-main {
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+    .footer-box {
+        width: 33.3%;
+    }
 }
 @media screen and (max-width:1000px) {
         #hero{
@@ -166,6 +177,13 @@
     .getintouch-desc h1 {
         font-size: 4rem;
     }
+    .footer-box {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .footer-main h1 {
+        font-size: 3rem;
+    }
 }
 @media screen and (max-width:500px) {
     .hero-main-btns{
@@ -223,6 +241,9 @@
     }
     .getintouch-box i {
         margin: 2rem 0;
+    }
+    .footer-main {
+        width: 100%;
     }
 
 }
