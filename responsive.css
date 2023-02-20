@@ -27,6 +27,12 @@
     .company {
         width: 900px;
     }
+    .contact-form {
+        width: 420px;
+    }
+    .contact {
+        width: 360px;
+    }
 }
 @media screen and (max-width:1200px) {
     .solution-flex {
@@ -118,7 +124,20 @@
         }
 }
 @media screen and (max-width:900px) {
-    
+    #contact {
+        flex-direction: column-reverse;
+    }
+    .contact{
+        margin-left: 0;
+        width: 90%;
+    }
+    .contact p{
+        margin: 3rem 0;
+    }
+    .contact-form{
+        margin-top: 5rem;
+        width: 90%;
+    }
 }
 @media screen and (max-width:800px) {
     .solution-main{
@@ -183,6 +202,9 @@
     }
     .footer-main h1 {
         font-size: 3rem;
+    }
+    .contact h1 {
+        font-size: 4rem;
     }
 }
 @media screen and (max-width:500px) {
@@ -281,7 +303,13 @@
     .getintouch-desc h1 {
         font-size: 3.1rem;
     }
-
+    .contact h1 {
+        font-size: 3.3rem;
+    }
+    .contact {
+        margin-left: 0;
+        width: 100%;
+    }
 }
 @media screen and (max-width:300px) {
     

@@ -661,6 +661,88 @@ nav ul li a {
     height: 100%;
     object-fit: cover;
 }
+/* Contact */
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0;
+    background-color: var(--green);
+}
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    background-color: #9077f4;
+    border-radius: .5rem;
+}
+.contact-form form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+.contact-form form input{
+    height: 40px;
+    padding: 0 1rem;
+}
+.input-text{
+    width: 45%;
+}
+.input-email{
+    width: 100%;
+    margin: 2rem 0;
+}
+.contact-form form input::placeholder , .contact-form form textarea::placeholder{
+    font-size: 1.6rem;
+    color: #40404097;
+}
+.contact-form form textarea{
+    height: 100px;
+    padding: .5rem 1rem 0;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.contact-form form input , .contact-form form textarea{
+    border: none;
+    border-radius: .3rem;
+}
+.contact-form form input:focus , .contact-form form textarea:focus{
+    outline:#4040404a solid 2px  ;
+}
+.input-submit{
+    color: #404040;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+.input-submit:hover{
+    background-color: #cdcdcd;
+}
+.contact{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    width: 600px ;
+    padding: 0 2rem;
+    margin-left: 3rem;
+}
+.contact h1{
+    font-size: 5rem;
+    color: #323232;
+}
+.contact p {
+    font-size: 1.6rem;
+    color: #404040;
+    margin: 1rem 0;
+    line-height: 2.5rem;
+}
 /* Footer */
 #footer{
     display: flex;
